@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PoliceApp">
-        <activity android:name=".home"></activity>
+        <activity android:name=".Chat_dtl"></activity>
+        <activity
+            android:name=".landing"
+            android:label="@string/title_activity_landing"
+            android:theme="@style/Theme.PoliceApp.NoActionBar" />
+        <activity android:name=".maps" />
+        <activity android:name=".home" />
         <activity android:name=".login" />
         <activity
             android:name=".MainActivity"
